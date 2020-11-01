@@ -1,66 +1,38 @@
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-    /* background-color: darkgrey; */
-}
-header {
-    
-    width: 100%;
-    height: 100vh;
-    background:radial-gradient(rgba(188, 189, 196, 0.673) , rgba(251, 224, 101, 0.768)) ;
-   
-}
-
+    box-sizing: border-box;
+  }
+  
+  body{
+    height:100%;
+    width:100%;
+    margin:0;
+  }
 .navbar {
-   
-    display: flex;
-    position: relative;
-  
+    background-color: transparent;
 }
-.navbar-left {
-   
-    flex-basis: 40%;
-  
-    height: 10%;
- 
-    padding-top: 20px;
-    padding-left: 115px;
-}
-.navbar-right {
-  
-    top: 10px;
-    right: 115px;
-    position: absolute;
 
+.main-page{
+    height: 100%;
+    width: fit-content;
+   
+} 
+
+.container-xlg {
+    background:radial-gradient(rgba(188, 189, 196, 0.673) , rgba(248, 216, 71, 0.925)) ;
 }
-.navbar-right ul li a {
-    color: black;
-    border-right: rgb(255, 14, 14) solid;
-    padding-right: 4px;
+.heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;}
+
+
+.explore {
+    background-color: orangered;
     text-decoration: none;
-}
-
-.navbar-right ul li a:hover {
-    color: yellow;
-}
-
-.navbar-right ul li a img {
-    border-right: none !important;
-  
-}
-
-.navbar-right ul li {
-    
-    display: inline-block;
-    margin-right: 20px;
-}
-.container 
-{   
-   
-    display: flex;
-    height: 90%;}
- 
+    color: white;
+    border-radius: 25px;
+    padding: 8px 30px;
+    right: 7%; }
 
 .container-left  {
     flex-basis: 40%;
@@ -80,15 +52,8 @@ header {
     font-weight: 1000;
 }
 
-.explore {
-    background-color: orangered;
-    text-decoration: none;
-    color: white;
-    border-radius: 25px;
-    padding: 8px 30px;
-    right: 7%;  
-    position: absolute;
-}
+ 
+
  
 .explore:hover {
     background-color: rgb(54, 39, 39);

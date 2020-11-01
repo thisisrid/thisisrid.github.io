@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
     <title>Red Store</title>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
@@ -10,58 +10,91 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="EcoWEB1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+
 </head>
 <body>
-<header>
-    
-        <div class="navbar">
-            <div class="navbar-left">
-                <div class="logo">
-                        <a href="">
-                            <img src="images/logo.png" alt="logo" width="140px" height="40">
-                         </a>
-                </div>
-            </div>
+<div class="container-xlg ">
+    <!-- ,,,,,,,,navbar,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+    <nav class="navbar navbar-expand-md">
 
-            <div class="navbar-right">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Account</a></li>
-                    <li><a href=""><img src="images/cart.png" alt="" width="25" height="25"></a></li>
+        <div class="container-fluid">
+            <a class="navbar-brand ridwan" href="#home">
+                <img class="img-fluid" src="images/logo.png" width="200" height="50" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-link"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-link"><a class="nav-link" href="#product">Product</a></li>
+                    <li class="nav-link"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-link"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-link"><a class="nav-link" href="#account">Account</a></li>
+                    <li class="nav-link"><a class="nav-link" href="#cart"><img src="images/cart.png" alt="" width="25"
+                                height="25"></a></li>
                 </ul>
             </div>
 
         </div>
-  
-   
-        <div class="container">
 
-            <div class="container-left">
-                <div class="contleft"> 
-                        <h1>Give Your Workout <br> A New Style!</h1>
-                            <br>
+    </nav>
 
-                        <p>Lorem ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                         Quas, sequi? dolor sit amet consectetur adip.</p><br>
+    <!-- mainpage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
 
-                        <a class="explore" href="">Explore More   &#8594 </a>
-                </div> 
-            </div>
-       
-            <div class="container-right">
-                    <img class="ftball" src="images/image1.png" alt="" height="520" width="630">
-            </div>
+    <div class="row main-page  align-items-center">
+        <div class="col-lg-5 text-center ml-5 pl-5">
+            <h1 class="heading ">Give Your Workout <br> A New Style!</h1>
+            <br>
 
+            <p>Lorem ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Quas, sequi? dolor sit amet consectetur adip.</p><br>
+            <a class="explore" href="">Explore More &#8594 </a>
         </div>
+        <!-- <div class="col-lg-1"></div> -->
+        <div class="col-lg-5">
+            <img class="img-fluid align-items-center justify-content-center mt-4 pt-5 mb-5 pb-5" src="images/image1.png"
+                alt="">
+        </div>
+    </div>
+</div>
+        
+    
+          <section class="banner-container container-fluid">
+            <div class="row vh-100">
+              <div class="col-md-9 banner-column m-auto text-center p-5">
+             <h1 class="font-weight-bolder display-5 text-light">Mohammad Ridwanul Alam</h1>
+             <h3 class=" mt-4 elt">Engineer || Learner || Teacher</h3>
+              </div>
+          </div>
+          </section>
 
-       
- 
 
-</header> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div class="catagories">
 
@@ -433,6 +466,6 @@
 
 
 
-
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
