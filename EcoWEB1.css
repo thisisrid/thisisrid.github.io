@@ -1,6 +1,6 @@
 body {
-    box-sizing: border-box;
-    background-color:#F04E25 !important;
+    box-sizing: border-box !important;
+    /* background-color:#033b0e !important; */
 }
 .navbar {
     background-color: transparent;
@@ -22,7 +22,7 @@ body {
 
 
 .explore {
-    background-color: orangered;
+    background-color: rgb(42, 140, 50);
     text-decoration: none;
     color: white;
     border-radius: 25px;
@@ -32,50 +32,64 @@ body {
 .explore:hover {
         background-color: rgb(54, 39, 39);
     }
+.card-group {
+  
+}
 
-
-    .
+    
 .card-pht {
-    transition: linear 2s;
+    transition: linear .4s;
+    /* height: 300px;
+    width: 240px; */
 }
 
 .card-pht:hover {
     transform:translateY(-10px);
-    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.864);
+    box-shadow: 0 10px 12px 10px rgba(0, 0, 0, 0.864);
     background-color:#EEEFF3;
 }
 
 
+.offer{
+    background:radial-gradient(rgba(253, 253, 255, 0.877) , rgb(220, 14, 175)); 
+    
+}
+.offer h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+}
 
 .headline {
-        /* background-color: green; */
-        /* text-decoration: underline black ; */
-        /* margin-bottom: 0px;
-        text-align: center;
-        padding: 5px;
-       
-        font-family: 'Righteous', cursive;
-        font-size: 20px;
-        font-weight: 600;
-        position: relative;
-        line-height: 70px; */
+    color: gold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: gray;
+    background-size: contain;
     }
 .headline::after {
-        /* content:'';
-        background-color: orangered;
-        width: 80px;
-        text-align: center;
-        height: 5px;
-        border-radius: 5px;
-        padding-left: 0%;
-        left: 40.5%;
-        bottom: 13px;
-        position: absolute; */
-
+     
    
     }
+.commentators-box  {
+   
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.122);
+   
+} 
+.fa {
+    color: goldenrod;
+}
 
 
+.commentators {
+    border-radius: 50%;
+    box-shadow: 0 0 0px 5px goldenrod;
+    transition: linear .4s;
+}
+.commentators:hover {
+    transform: scale(1.5);
+    box-shadow: 0 0 11px 5px black;
+
+}
 
 
 
@@ -182,26 +196,14 @@ body {
 
 .latest { */
     /* background-color: rgba(76, 83, 63, 0.959); */
-    height: 100%;
-    position: relative;
+   
 
-}
 
 .last {
     top: 400px;
     position: absolute;
 }
 
-.offer{
-    display: flex;
-    position: relative;
-     margin-top: 30%;
-    background:radial-gradient(rgba(188, 189, 196, 0.673) , rgba(243, 52, 202, 0.768)) ;
-    /* display: flex; */
-    /* position: relative; */
-    /* position: relative; */
-    /* display: inline-block; */
-}
 
 .offerpic {
     flex-basis: 50%;
@@ -320,14 +322,14 @@ width: 50px;
 
 .col img {
     filter: grayscale(100%);
-}
+
 
 .col img:hover {
     filter: grayscale(0%);
 }
 
 /* ..................................................footer.................................................... */
-
+/* 
 .footer {
     background-color: rgb(0, 0, 0);
     color: white;
@@ -335,7 +337,7 @@ width: 50px;
     padding: 40px;
     align-items: center;
     /* margin-right: 30px; */
-}
+/* }
 
 .footer ul li {
     list-style: none;
@@ -398,5 +400,3 @@ width: 50px;
 
 .copyright {
    
-    text-align: center;
-}
