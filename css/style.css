@@ -4,8 +4,13 @@ body {
 }
 
 .whole-body{
+   
     /* width: 100%; */
 overflow-x: hidden;
+}
+
+#navbarSupportedContent{
+    font-family: 'Lobster', cursive;
 }
 .navbar {
     background-color: transparent;
@@ -21,11 +26,18 @@ overflow-x: hidden;
     
     background:radial-gradient(rgba(188, 189, 196, 0.673) , rgba(248, 216, 71, 0.925)) ;
 }
-/* .heading {
+.heading {
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: bolder;} */
+    font-weight:1000;
 
-
+}
+.sub-headline {
+    font-family: 'Patua One', cursive; 
+}
+.sub-sub-headline {
+    font-family: 'Turret Road', cursive;
+    color: black;
+}
 .explore {
     background-color: rgb(42, 140, 50);
     text-decoration: none;
@@ -82,6 +94,12 @@ overflow-x: hidden;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.122);
    
 } 
+.names {
+    font-family: 'Play', sans-serif;
+}
+.comments {
+    font-family: 'Sacramento', cursive;
+}
 .fa {
     color: goldenrod;
 }
