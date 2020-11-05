@@ -108,9 +108,9 @@ overflow-x: hidden;
 {
     filter: grayscale(0%);
 }
-
+/* ////////////////////////footer..................... */
 .footer {
-    font-size: 11px;
+    font-size: 16px;
     color: white;
     background-color: black;
    
